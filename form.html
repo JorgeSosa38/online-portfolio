@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: blanchedalmond;
+            
+        }
+
+        form{
+            background-color: rgb(82, 16, 11);
+            display: inline-block;
+            padding: 20px 20px;
+            margin: 50px 400px;
+            color: blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        form #age{
+            width: 163px;
+        }
+
+        form button{
+            margin-left: 170px;
+            background-color: blanchedalmond;
+            color:rgb(82, 16, 11) ;
+            font-weight:bold;
+            border: none;
+            outline: none;
+            padding: 5px 5px;
+        }
+
+        button:hover{
+            background-color: rgb(38, 12, 96);
+            color:blanchedalmond
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <p>
+            <label>First Name</label><br>
+            <input type="text" placeholder="Enter your first name">
+        </p>
+        <p>
+            <br><label>Last Name</label><br>
+            <input type="text" placeholder="Enter your last name">
+        </p><br>
+        <p>
+            <label>Age</label><br>
+            <input type="number" id="age" placeholder="Enter your age"
+            min="15" max="120" size="100px">
+        </p>
+        <p>
+            <br><label>Email</label><br>
+            <input type="email" placeholder="Enter your email address">
+        </p><br>
+        <p>
+            <br><label>What Can I help you with?</label><br>
+            <textarea placeholder="Enter Formal Request" rows="5" cols="50"></textarea>
+        </p>
+
+        <br><button type="submit">Submit</button>
+    </form>
+
+
+    
+</body>
+</html>
